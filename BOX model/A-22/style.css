@@ -1,0 +1,32 @@
+body{
+    font-family: "Open Sans" , sans-serif;
+}
+
+.box{
+    background-color: crimson;
+    height: 250px;
+    width: 500px;
+    padding: 25px;
+    border: 12px solid  aqua;
+    margin: 20px;
+    box-sizing: content-box;
+    /* outline: 10px solid rgb(137, 226, 43) ; */
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 7);
+    box-shadow :inset 3px 3px 2px rgba(0, 0, 0, 7);
+
+}
+
+span{
+    display: inline-block;
+    background-color: blue;
+    height: 150px;
+    width: 100px;
+    padding: 25px;
+    border: 12px solid black;
+    /* margin: 20px; */
+
+}
+.paarent
+{
+    font-size: 0;
+}

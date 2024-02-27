@@ -1,0 +1,46 @@
+.header{
+    font-size: 25px;
+    margin: 30px;
+}
+.box{
+    height: 100px;
+    width: 180px;
+    background-color: #dc143c;
+    border: 10px solid black;
+    display: inline-block;
+    margin: 40px; 
+}
+.double
+{
+    border-style: double;
+}
+.dashed
+{
+    border-style: dashed;
+}
+.dotted
+{
+    border-style: dotted;
+}
+.none
+{
+    border-style: none;
+}
+p{
+    width: 400px;
+    background-color: red;
+    font-size: 24px;
+    color: white;
+    padding: 24px;
+    border-top: 10px solid blue;
+    border-right: 10px solid gray;
+    border-bottom: 10px solid yellow;
+    border-left: 10px solid green;
+   
+}
+.cont{
+    background-color: indigo;
+    padding: 6px 20px;
+    display: inline-block;
+    margin: 32px;
+}

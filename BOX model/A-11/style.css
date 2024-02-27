@@ -1,0 +1,30 @@
+body{
+    font-family: "Open Sans" , sans-serif;
+}
+
+.box {
+    background-color: crimson;
+    width: 300px;
+    height: 350px;
+    /* padding: 20px;  from border it will apply*/
+    /* padding-left: from left it will aplly 20px; */
+    /* padding-top: from top 20px; */
+    padding: 20px 30px 40px 50px; /* it will like clock wise right left top botto,*/
+    /* border: 10px solid aqua ; */
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: acqa ; we can apply individuall; also */
+    /* border-bottom-width: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: acqa ; we can apply like this also */
+    /* border: 10px dotted aqua; dotted border will come */
+    border:  10px solid rgb(140, 255, 0);
+    border-radius: 15px;
+    /* margin: 20px;  short end propertie*/
+    /* margin-left: 40px;
+    margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 50px; long end properties*/
+    margin: 55px 55px 55px 55px; /* clock wise top ,right,bottom ,let*/
+    
+}

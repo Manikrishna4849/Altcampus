@@ -1,0 +1,37 @@
+.home {
+    background-color: aliceblue;
+}
+.home {
+    text-align: center;
+    margin-bottom: 60px;
+    background-color: aquamarine;
+    padding: 34px;
+}
+img {
+    width: 400px;
+}
+h1 {
+ font-size: 36px;
+ margin-bottom: 24px;
+}
+h2 {
+ font-size: 24px;
+ margin-bottom: 24px;
+}
+
+.footer {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 34px;
+}
+article {
+    margin-bottom: 60px;
+}
+p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+body{
+    line-height: 1.5;
+}

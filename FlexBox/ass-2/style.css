@@ -1,0 +1,106 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*,*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.box{
+    padding:  40px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+   
+}
+
+.box-1{ background-color: #31BB66;}
+.box-2{ background-color: #3498db;}
+.box-3{ background-color: red;}
+.box-4{ background-color: yellow;}
+.box-5{ background-color: #e67322;}
+.box-6{ background-color: mistyrose;}
+.box-7{ background-color: #bada55;}
+.box-8{ background-color: #2ecc71;}
+.box-9{ background-color: #e74c3c;}
+.box-10{background-color:#16a085;}
+
+.container{
+    border: 10px solid black;
+    display: flex;
+    height: 100vh;
+    align-items: flex-start; 
+}
+.outer{
+    width: 400px;
+    height: 400px ;
+    background-color: #16a085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid{
+    width: 200px;
+    height: 200px ;
+    background-color: #e74c3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 100px;
+    height: 100px ;
+    background-color: mistyrose;
+}

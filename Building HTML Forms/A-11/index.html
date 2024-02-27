@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Building HTML form</h1>
+    <!-- For Multiple line Text BAsed -->
+    <form action="" >
+        <input type="text" name="Enter The Name" />
+        <input type="Email" name="Email">
+        <input type="date">
+        <input type="url">
+        <textarea name="Meassage" id="" cols="50" rows="20 "></textarea>
+    </form>
+<!-- Checkbox -->
+    <form action="">
+    <input type="checkbox" name="language" value="HTMl" checked >HTML
+    <input type="checkbox" name="language" >JAVA
+    <input type="checkbox" name="language" >JAVASRIPT
+    </form>
+    <!--RadioButton  -->
+    <form action="">
+        <input type="radio" name="language" value="HTMl" >HTML
+        <input type="radio" name="language" >JAVA
+        <input type="radio" name="language" >JAVASRIPT
+        </form>
+        <!-- DropDownList -->
+        <form action="">
+            <select name="language" multiple id="">
+                <option value="HTML">HTML</option>
+                <option value="JAVASRIPT">JAVASRIPT</option>
+                <option value="CoREJAVA">CoREJAVA</option>
+                <option value="CSS">CSS</option>
+                <option value="MAnual">MAnual</option>
+                <option value="HTML">Selenium</option>
+                <option value="Ruby">Ruby</option>
+                <option value="CSHARP">CSHARP</option>
+                <option value="Python">Python</option>
+                <option value="Angular" selected>Angular</option>
+                
+            </select>
+        </form>
+        <!-- Hidden,File Upload -->
+        <form action="">
+            <input type="hidden" name="tracking-code" value="abc">
+            <input type="file" name="file">
+        </form>
+        <form action="">
+            <input type="text" name="userame">
+            <input type="email" name="email-adress">
+            <input type="password" name="password">
+            <button><strong>Send</strong>submit</button>
+        </form>
+</body>
+</html>

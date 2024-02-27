@@ -1,0 +1,12 @@
+
+body {
+    background-color: rgb(215, 67, 18);
+}
+.heading {
+    color: rgb(43, 20, 220);
+    font-size: 35px;
+}
+#unique{
+    color: blueviolet;
+    font-size: 15px;
+}

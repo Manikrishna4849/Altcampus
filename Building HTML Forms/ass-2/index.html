@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/df2272a6cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="nav-bar">
+    <div class="container flex">
+        <a class="flex brand" href="">
+            <img src="media/logo.png" alt="journey Logo">
+            <strong>Journey</strong>
+        </a>
+        <nav>
+            <ul class="flex nav-menu">
+                <li class="nav-menu-item">
+                    <a  class="active" href="">Home</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Top Destinations</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Recomended Place</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="">Contact us</a>
+                </li>
+            </ul>
+        </nav>
+    
+    </div>
+  </header>   
+  <main>
+     <!-- Hero -->
+        <div class="container">
+            <section class="hero">
+                <h1 class="hero-heding">Let's Begin</h1>
+                <div class="flex justify-centre coloumn">
+                    <div class="dot"></div>
+                    <div class="dot dot-active"></div>
+                    <div class="dot"></div>
+                </div>
+                <h4 class="hero-subheading" >We assist you to choose the best</h4>
+              <div class="icon-box">
+                <i class="fas fa-chevron-down"> </i>
+               </div>
+               <form action="" class="flex item-start">
+                <fieldset class="flex-50">
+                    <label for="Destination">Chose Your Destination</label>
+                    <input class="form-contol" type="text" name="destination" id="Destination" placeholder="Type your destination">
+                    <div class="flex margin-top">
+                        <div>
+                            <label for="check-in">Check in date</label>
+                      <input class="form-contol"   name="checkin" type="date" placeholder="checkin" id="check-in"> 
+                        </div>
+                        <div>
+                            <label   for="check-out">Check out date</label> 
+                            <input class="form-contol"  name="checkout" type="date" placeholder="checkout" id="check-out">  
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset class="flex-46">
+                       <div  class="flex">
+                        <div>
+                            <label for="rooms">How Many Rooms</label>
+                            <select class="form-contol"  name="rooms" id="rooms">
+                                <option value="">1 Room</option>
+                                <option value="">2 Room</option>
+                                <option value="">3 Room</option> 
+                                <option value="">4 Room</option>
+                                <option value="">5 Room</option>
+                            </select>
+                        </div>
+                    <div>
+                        <label for="adult">Adult</label>
+                        <select class="form-contol"  name="rooms" id="adult">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option> 
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="children">Children</label>
+                        <select class="form-contol"  name="rooms" id="children">
+                            <option value="">0</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option> 
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+                   
+                </div>
+                <input class="btn btn-primary margin-top" type="submit" value="Check-availbility">
+                </fieldset>
+               </form>
+            </section>
+            <!-- About -->
+            <section class="padding text-centre about">
+                <div class="about-wrapper">
+                    <h2>Your <strong>Journey</strong> is our priority</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eum incidunt exercitationem magnam accusantium laborum error dolore voluptate nulla unde, ad reprehenderit nemo atque obcaecati doloribus omnis, dolorem excepturi dicta?</p>
+                    <a class="btn btn-primary" href="">Continue Explore</a>
+                    </section>
+                    <!--Blog  -->
+                    <section class="">
+                        <article class="flex">
+                        <div class="flex-50 font-0 article-col-left">
+                            <img src="media/tm-img-01.jpg" alt="">
+                            <div class="flex justify-end nav-btn-container">
+                                <div class="nav-btn centre">
+                                    <div class="nav-btn-icon">
+                                        <i class="fas fa-angle-left"></i>
+                                    </div>
+                                </div>
+                                <div class="nav-btn centre">
+                                    <div class="nav-btn-icon">
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                        </div>
+                        <div class="flex-50">
+                            <h3>Eroupes Most Visited Place</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium reiciendis dolor nihil aut voluptas dicta molestiae alias nisi delectus pariatur dolorum saepe, esse recusandae dolorem quia explicabo incidunt autem omnis.</p>
+                            <a class="btn btn-secondary" href="">Continue Reading</a>
+                        </div>
+                    </article>
+                    </section>
+                </div>
+  </main>
+</body>
+</html>

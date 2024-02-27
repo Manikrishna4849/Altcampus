@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="index.html" method="post">
+    <h1>SignUp</h1>
+    <fieldset>
+       <legend>
+        <span>1</span>
+        YourBasicInfo
+        </legend> 
+        <label for="name">Name</label>
+        <input class="form-control" type="text" id="name" name="name">
+        <label for="email">EmailId</label>
+        <input class="form-control" type="EmailId"  id="email" name="EmailId">
+        <label for="password">Password</label>
+        <input class="form-control" type="password" id="password" name="password">
+        <div>
+        <label >Age</label>
+        <label>
+          <input type="radio" name="age">Under 13
+        </label>
+        <label>
+         <input type="radio" name="age">Over 13
+        </label>
+        </div>
+        
+    </fieldset>
+    <fieldset>
+        <legend>
+            <span>2</span>
+            YourProfile
+            </legend> 
+            <label for="bio">Bio </label>
+                <textarea class="form-control" name="bio" id="bio"  rows="3"></textarea>
+                <label for="jobrole">JobRole</label>
+                <select name="role" id="jobrole">
+                <optgroup label="WEB">
+                    <option value="Front End Devoloper">Front End Devoloper</option>
+                    <option value="Front End Devoloper">Front End Devoloper</option>
+                    <option value="Front End Devoloper">Front End Devoloper</option>
+                    <option value="Front End Devoloper">Front End Devoloper</option>
+                </optgroup>
+                <optgroup label="Backend">
+                    <option value="">Back End Devoloper</option>
+                    <option value="">Back End Devoloper</option>
+                    <option value="">Back End Devoloper</option>
+                </optgroup>
+                </select>
+                <div>
+                <label >Intersts;
+                    <label >
+                <input type="checkbox" name="Intersts">WEB
+            </label>
+            <label for=""><input type="checkbox" name="Intersts">WEB
+            </label>
+            <label ><input type="checkbox" name="Intersts" checked>WEB
+            </label>
+            </label>
+        </div>
+
+    </fieldset>
+    <button>Signup</button>
+    </form>
+</body>
+</html>

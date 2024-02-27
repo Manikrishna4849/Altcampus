@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin:  0 auto;
+    padding: 0 32px;
+}
+body{
+	line-height: 1.5;
+    font-size: 16px;
+    font-family: "Open Sans",sans-serif;
+    background-color: #D4CEA7;
+}
+ol{
+    list-style: decimal;
+}
+ul{
+    list-style: disc;
+}
+ol,ul{
+    padding-left: 40px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.justify-start{
+    justify-content: flex-start; 
+}
+.stretch{
+    align-items: stretch;
+}
+.navbar{
+  background-color: #F96115;
+  padding: 32px 0;
+}
+.navbar ul{
+    list-style: none;
+}
+.menu{
+    color: white;
+    background-color: #005979 ;
+    font-size: 24px;
+    padding: 32px 0;
+    padding-left: 60px;
+    width: 30%;
+}
+.section{
+   padding: 60px 0;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 24px;
+    margin-left :32px;
+    color: white;
+} 
+.menu li{
+    line-height: 2;
+}
+.sub-menu{
+    list-style: square;
+}
+/* Description list */
+dl{
+    font-size: 20px;
+}
+dt{
+    font-size: 32px;
+}
+dd{
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+.footer{
+    padding: 40px 0;
+    background-color: #035878;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: white;
+    margin-left: 32px;
+    text-decoration: none;
+}

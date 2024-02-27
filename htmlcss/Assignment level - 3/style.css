@@ -1,0 +1,28 @@
+body {
+    background-color:#22396a;
+    color: whitesmoke;
+}
+a {
+    color: red;
+}
+
+h2 {
+    color: brown;
+}
+h3 {
+    font-size: 30px;
+}
+p{
+    font-size: 10px;
+}
+.header {
+    text-align:  center;
+}
+.img{
+    width: 300px;
+    height: 400px;
+}
+.footer {
+background-color: #11244d;
+text-align: center;
+}

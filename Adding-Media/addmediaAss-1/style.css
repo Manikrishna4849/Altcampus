@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Variables */
+:root{
+    --primary: #1277e5;
+    --secondary:#7cef69;
+    --bg:#efefef;
+    --text:#393939;
+    --accent: #CF3732;
+}
+/* My resets */
+*,*::before,
+*::after{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* Custom Styles */
+body {
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    color: #9b9b9b;
+}
+.container{
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 32px;
+    width: 100%;
+}
+/* Flex */
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+.allign-start{
+    align-items: flex-start;
+}
+.text-centre{
+    text-align: center;
+}
+.allign-centre{
+
+    justify-content: center;
+}
+.flex-60{
+    flex: 0 1 60% ;
+}
+.flex-40{
+    flex: 0 1 40% ;
+}
+.flex-30{
+    flex: 0 1 30% ;
+}
+
+
+/* btns */
+.btn{
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 32px;
+}
+.btn-primary{
+    background-color: var(--accent); 
+}
+.btn-secondary{
+    background-color: transparent ;
+    border: 2px solid white;
+}
+/* heading */
+.sec-header{
+    margin-bottom: 24px;
+}
+.heading{
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+}
+.text{
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 12px;
+}
+/* Dot */
+.dot{
+   width: 10px; 
+   height:10px;
+   background-color:#D8D8D8 ;
+   margin-right: 4px;
+   display: inline-block;
+}  
+/* Image */
+.flexibale-img{
+    width: 100%;
+    height: auto;
+}
+/* padding */
+.padding{
+    padding: 80px 0 ;
+}
+/* Navigation bar */
+.nav-bar{
+    padding: 16px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.brand{
+    font-size: 32px;
+    margin-right: 160px;
+    color: #fff;
+}
+.nav-menu a{
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.nav-menu li{
+    margin-left: 32px;
+}
+
+.social-media-item a{
+    font-size: 16px;
+}
+/* Hero */
+.hero {
+    height: 100vh;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to right,rgba(19,120,228,0.7) , rgba(126,243,102,0.7)), url(../addmediaAss-1/assets/home-bg.jpg)center center no-repeat;
+    background-size: cover;
+}
+.col-1-2{
+    flex: 0 1 50%;
+}
+.hero-content{
+    padding-right: 100px;
+}
+.hero-heading{
+    font-size: 48px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.enquiry{
+    margin-left: 32px;
+    color: white;
+}
+/* About */
+.about{
+   position: relative; 
+}
+.progress{
+    padding:0 44px ;
+}
+.progress-item{
+    margin-bottom: 24px;
+}
+.progress-item h3{
+    color: var(--text);
+    font-weight: 500;
+}
+.progress-item p{
+    color: var(--text);
+}
+progress{
+    width: 100%;
+    height: 4px;
+    appearance: none;
+    background-color: var(--bg);
+}
+progress::-webkit-progress-bar{
+    background-color: var(--bg);
+}
+progress::-webkit-progress-value{
+    background-color: var(--text);
+}
+.about-img{
+    position: absolute;
+    width: 20%;
+    bottom: 0;
+}
+/* OurBlog */
+.blog{
+    background-color: var(--bg) ;
+}
+.article{
+    background-color: white;
+}

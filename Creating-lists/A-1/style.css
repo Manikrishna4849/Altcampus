@@ -1,0 +1,16 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: crimson;
+}
+li{
+    font-size: 30px;
+}
+ul{
+    background-color: aqua;
+    list-style: decimal-leading-zero outside url();
+}
